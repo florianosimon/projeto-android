@@ -59,7 +59,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0,0,0, 0.315);
 }
 
@@ -149,22 +149,15 @@ main img.pequena {
     margin: auto;
 }
 
-div.video {
-    background-color: #058030;
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 50%;
-    position: relative;
+article > iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    box-shadow: none;
 }
 
-div.video > iframe {
-    position: absolute;
-    display: block;
-    margin: auto;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-}
+
 aside {
     background-color:#31f0a1;
     padding: 10px;
